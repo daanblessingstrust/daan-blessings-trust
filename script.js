@@ -53,6 +53,7 @@ document.getElementById("donationForm")?.addEventListener("submit", function(e){
     const formData = {
         donorName: this.donorName.value,
         phone: this.phone.value,
+        email: this.email.value,
         amount: this.amount.value,
         upiRef: this.upiRef.value,
         message: this.message.value
